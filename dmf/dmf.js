@@ -1,8 +1,8 @@
 /**
- * DMF 1.0
+ * DMF - Discord Message Formatter v1.1
  * -------------------------------
- * (c) 2022 aeholic
- * https://aeholic.github.io/dmf
+ * (c) 2022-2025 lipino
+ * https://lipino3.github.io/dmf
  */
 
 const [el, date, title, desc, url, copy, reset, copied, converted, image, fill, yt, ytId] = [
