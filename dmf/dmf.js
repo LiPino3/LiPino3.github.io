@@ -43,7 +43,7 @@ inputs.forEach((elem) => {
 
 			copy().disabled = false
 			converted().textContent = `\`${date().value.trim()}\` **${title().value.trim()}**${desc().value.trim().length ? '\n*' 
-				+ desc().value.trim() + '*\n' : '\n'}${'https://youtu.be/' + id}`
+				+ desc().value.trim() + '*\n' : '\n'}${'https://www.youtube.com/watch?v=' + id}`
 		} else {
 			converted().textContent = fill
 			copy().disabled = true
